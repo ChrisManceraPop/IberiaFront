@@ -7,7 +7,8 @@ import "../css/login.css";
 
 const Login: React.FC = () => {
   const images = [
-    "https://eurocdn.azureedge.net/bucket/BackOffice/a/a/distro.png",
+    "https://eurocdn.azureedge.net/bucket/EBE/ib/120logo-Iberia.png",
+    // "https://eurocdn.azureedge.net/bucket/BackOffice/a/a/distro.png"
   ];
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -55,7 +56,7 @@ const Login: React.FC = () => {
   return (
     <>
       <Box className="row">
-        <Box className="containerRight col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <Box className="containerRight col-12 col-sm-12 col-md-6">
           <Box className="row login-container">
             <center>
               <p className=" fs-5 fw-bold">Bienvenido</p>
@@ -122,7 +123,7 @@ const Login: React.FC = () => {
             </Box>
           </Box>
         </Box>
-        <Box className="containerleft col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8">
+        <Box className="containerleft col-12 col-sm-12 col-md-6">
           <Box
             id="carouselExampleSlidesOnly"
             className="carousel slide"
